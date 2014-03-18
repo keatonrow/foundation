@@ -1,5 +1,7 @@
+@import "settings";
 @import "global";
 @import "foundation";
+@import "kr";
 @import "code";
 @import "marketing-off-canvas";
 @import "footer";
@@ -126,7 +128,7 @@ table.plugin-options {
   tbody {
     td:not([rowspan]) {
       font-family: Consolas, 'Liberation Mono', Courier, monospace;
-    } 
+    }
   }
   thead {
     td:first-child {
@@ -546,7 +548,7 @@ $custom-active-bg:darken($custom-link-color, 5%);
 // Make sure topbar dropdowns are above tab bar.
 .docs-bar ul.dropdown { z-index: 1003; }
 
-// Side nav custom active style 
+// Side nav custom active style
 .sidebar .side-nav li.active > a:first-child {
   font-weight: bold;
   color: lighten(#004054,20%);
