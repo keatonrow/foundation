@@ -1,3 +1,27 @@
+@import "settings";
+
+h1, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+
+  &.subheader {
+    font-style: normal;
+    text-transform: uppercase;
+  }
+}
+
+h3 {
+  font-weight: 900;
+}
+
+h4 {
+  font-weight: 500;
+}
+
 button, .button {
   text-transform: uppercase;
 }
